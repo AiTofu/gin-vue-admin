@@ -2,6 +2,7 @@
   <div
     class="bg-gray-50 text-slate-700 dark:text-slate-500 dark:bg-slate-800 w-screen h-screen"
   >
+  <!--
     <el-watermark
       v-if="config.show_watermark"
       :font="font"
@@ -10,6 +11,7 @@
       class="absolute inset-0 pointer-events-none"
       :content="userStore.userInfo.nickName"
     />
+    -->
     <gva-header />
     <div class="flex flex-row w-full gva-container pt-16 box-border h-full">
       <gva-aside
